@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Send me a message about my project.">
+    <title>Contact Me - Ethiopian Culture</title>
+</head>
+<body>
+
+    <header>
+        <h1>Get in Touch</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="cuisine.html">Food & Coffee</a></li>
+            <li><a href="festivals.html">History & Holidays</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Feedback Form</h2>
+            <p>Did you like my website? Do you have a favorite Ethiopian food? Please let me know below!</p>
+
+            <form action="#" method="POST">
+                
+                <label for="fullname">Your Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Type your name here..." required>
+                <br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="you@email.com" required>
+                <br><br>
+
+                <label for="interest">Why are you contacting me?</label><br>
+                <select id="interest" name="interest">
+                    <option value="food">I love the food!</option>
+                    <option value="history">I want to visit Ethiopia</option>
+                    <option value="hi">Just saying hi!</option>
+                </select>
+                <br><br>
+
+                <p><strong>Question:</strong> Have you ever tried Ethiopian Coffee?</p>
+                <input type="radio" id="yes" name="coffee" value="yes">
+                <label for="yes">Yes, it's great!</label><br>
+                
+                <input type="radio" id="no" name="coffee" value="no">
+                <label for="no">No, not yet.</label>
+                <br><br>
+
+                <label for="message">Write your message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40" placeholder="Write something..."></textarea>
+                <br><br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Thanks for visiting!</p>
+        <p>&copy; 2025 Fares. Web Dev Project.</p>
+    </footer>
+
+</body>
+</html>
